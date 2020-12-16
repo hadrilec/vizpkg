@@ -1,0 +1,27 @@
+Package: vizpkg
+Type: Package
+Title: Visualize links between package's functions
+Version: 0.1.0
+Authors@R: 
+  c(person("Hadrien", "Leclerc", email = "leclerc.hadrien@gmail.com", role = c("aut", "cre")))
+Author: Hadrien Leclerc [aut, cre]
+Maintainer: Hadrien Leclerc <leclerc.hadrien@gmail.com>
+Description: Visualize links between package's functions.
+License: GPL-3
+Imports: 
+  shiny,
+  shinydashboard,
+  shinydashboardPlus,
+  shinyjqui,
+  shinyWidgets,
+  RColorBrewer,
+  stringr,
+  dplyr,
+  magrittr,
+  rlang,
+  rappdirs,
+  openssl,
+  visNetwork
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
