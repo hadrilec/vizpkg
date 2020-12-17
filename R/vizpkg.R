@@ -36,6 +36,7 @@ vizpkg = function(pkg){
   return(viz)
 }
 
+#' @export
 vizpkg2 = function(edge, node){
 
   viz =

@@ -3,6 +3,7 @@
 export(get_edge)
 export(get_function)
 export(vizpkg)
+export(vizpkg2)
 export(vizpkgApp)
 importFrom(magrittr,"%>%")
 importFrom(rlang,".data")
