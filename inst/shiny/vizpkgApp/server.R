@@ -183,11 +183,14 @@ observe({
 
             pkgname <- basename(dirname(dirname(file)))
 
-            if(file.exists(file)){
-              temp <- tools::Rd2HTML(utils:::.getHelpFile(file), out = tempfile("Rtxt"),
-                                     package = pkgname)
+            temp <- tools::Rd2HTML(utils:::.getHelpFile(file), out = tempfile("Rtxt"),
+                                   package = pkgname)
 
-            }
+            # if(file.exists(file)){
+            #   temp <- tools::Rd2HTML(utils:::.getHelpFile(file), out = tempfile("Rtxt"),
+            #                          package = pkgname)
+            #
+            # }
 
 
             # dest_file = file.path(tempdir(), sprintf("%s.html", function_name))

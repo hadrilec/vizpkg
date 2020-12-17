@@ -26,7 +26,7 @@ vizpkgApp()
 
 ## Dashboard
 
-![](inst/assets/demo.png)
+![](inst/assets/demo_vizpkg.png)
 
 
 ## Contributing
