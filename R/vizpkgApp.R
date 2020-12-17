@@ -9,9 +9,8 @@
 #' @export
 vizpkgApp <- function() {
   appDir <- system.file("inst","shiny", "vizpkgApp", package = "vizpkg")
-  appDir <- system.file("inst","shiny", "vizpkgApp", package = "vizpkg")
   if (appDir == "") {
-    stop("Could not find example directory. Try re-installing `vizpkg`.", call. = FALSE)
+    appDir <- system.file("shiny", "vizpkgApp", package = "vizpkg")
   }
 
   shiny::runApp(appDir, display.mode = "normal")
