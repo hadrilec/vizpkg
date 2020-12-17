@@ -12,7 +12,7 @@ get_edge(pkg)
 \value{
 a character vector
 \donttest{
-get_function("insee")
+edge = get_edge("insee")
 }
 }
 \description{

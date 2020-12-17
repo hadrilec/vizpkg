@@ -4,7 +4,7 @@
 \alias{get_function}
 \title{List all functions in a package}
 \usage{
-get_function(pkg, all_function = TRUE)
+get_function(pkg, all_function = TRUE, load_function = TRUE)
 }
 \arguments{
 \item{pkg}{a package name}
