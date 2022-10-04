@@ -16,6 +16,7 @@ This package is a tool to help R users and developers understand how R packages 
 # Get the development version from GitHub
 # install.packages("devtools")
 # devtools::install_github("hadrilec/vizpkg")
+# devtools::install_version("shinydashboardPlus", version = "0.7.5", repos = "http://cran.us.r-project.org")
 
 library(vizpkg)
 
